@@ -29,7 +29,8 @@ Please build your page in `task1/index.html`. You are welcome to create as many 
 
 #### Assets
 
-* The assets are provided in `task1/text.txt` give you the text to put on the page.
+* The assets are provided in `task1/assets/text.txt` give you the text to 
+put on the page.
 * Your font doesn't have to match exactly. You can use font-family `Arial` or `Helvetica` for the page.
 * The living in Antarctic worksheet can link to the following: https://www.livescience.com/21677-antarctica-facts.html
 
