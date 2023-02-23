@@ -30,26 +30,50 @@
 .red-box{
     width:32px;
     height:32px;
-    background-color: red;
+    background-color: rgb(233, 71, 66);
     margin: 0 0 0 2px;
 }
 
 .purple-box{
     width:32px;
     height:32px;
-    background-color: purple;
+    background-color: rgb(148, 75, 243);
     margin: 0 2px 0 2px;
 }
 
 .dark-box{
     width:32px;
-    height:200px;
+    height:250px;
     background-color: rgb(4, 29, 67);
 }
 
 .light-box{
     width:32px;
-    height:165px;
+    height:215px;
     background-color: rgb(26, 80, 146);
 
+}
+
+.red-box::before{
+    content:'';
+    display:block;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #fbfbfb;
+
+    margin:2px 0 0 2px;
+}
+
+.purple-box::before{
+    content:'';
+    display:block;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #fbfbfb;
+
+    margin:2px 0 0 2px;
 }
