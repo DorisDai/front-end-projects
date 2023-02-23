@@ -2,20 +2,24 @@
 
 <head>
     <style type="text/css">
-
+        /* add some common features used in graph*/
         body{
             font-family: Arial;
             font-size: 1.1em;
             
             line-height:1.6;
-            word-spacing:0.1em
+            word-spacing:0.1em;
         }
+
+        /* parent boxes of text-info and koala-info*/
         .beginner{
             display:flex;
             height: 170px;
             margin:0px 5px 30px 45px;
             
         }
+
+        /* features of text in the top right of the page*/
         .text-info{
             width:70%;
             
@@ -23,6 +27,7 @@
             margin:0 25px 5px 0px;
         }
 
+        /* features of small gray box near the text-info*/
         .koala-info {
             width:28%;
             
@@ -33,10 +38,13 @@
             color:gray;
         
         }
+
+        /* make the space between paragraph disappear*/
         .koala-info > p {
 
             margin:0 0 0 30px;
         }
+
         .yellow-title{
             background-color: #f6d14b;
             font-weight: bold;
@@ -47,6 +55,7 @@
             height:35px;
         }
         
+        /*features of the text under yellow title*/
         .text-scene{
             margin:5px 5px 35px 45px;
             padding: 0 0 20px 0;
@@ -55,7 +64,7 @@
 </head>
 
 <body>
-    <div class="beginner">
+    <div class="beginner"> <!--beginner is a flex box with 2 childs, text-info and koala-info in or der to make them show in the same row-->
         <div class="text-info">
             <p style="margin-top:0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum nibh vitae consequat iaculis. Pellentesque gravida, elit quis convallis scelerisque, urna lorem rhoncus magna, et luctus enim justo a magna. Duis efficitur odio turpis, vel suscipit nibh dapibus non. Nunc sed vulputate lorem. Phasellus viverra, magna at sollicitudin aliquet, eros lorem faucibus est, sed finibus ligula libero sit amet neque. Nulla facilisi. Curabitur posuere suscipit ullamcorper. In faucibus pellentesque mauris nec dictum. Maecenas semper orci et venenatis congue. 
