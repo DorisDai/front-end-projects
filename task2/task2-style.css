@@ -1,4 +1,4 @@
-
+/* make a 420 * 699 px vieport */
 .background{
     width:420px;
     height:699px;
@@ -7,6 +7,7 @@
     align-items:stretch;
 }
 
+/* make dark blue backgound box with column direction*/
 .blue-dark{
     height:100%;
     width:35px;
@@ -17,6 +18,7 @@
     gap:3px;
 }
 
+/* make light blue backgound box with column direction*/
 .blue-light{
     height:100%;
     width:35px;
@@ -27,6 +29,7 @@
     gap:3px;
 }
 
+/* make red box at the bottom of background box*/
 .red-box{
     width:32px;
     height:32px;
@@ -34,6 +37,7 @@
     margin: 0 0 0 2px;
 }
 
+/* make purple box*/
 .purple-box{
     width:32px;
     height:32px;
@@ -41,12 +45,14 @@
     margin: 0 2px 0 2px;
 }
 
+/*use dark box to move purple box with dark blue background*/
 .dark-box{
     width:32px;
     height:250px;
     background-color: rgb(4, 29, 67);
 }
 
+/*use light box to move purple box with light blue background*/
 .light-box{
     width:32px;
     height:215px;
@@ -54,6 +60,7 @@
 
 }
 
+/* add small triangle to red boxes*/
 .red-box::before{
     content:'';
     display:block;
@@ -66,6 +73,7 @@
     margin:2px 0 0 2px;
 }
 
+/* add small triangle to purple boxes*/
 .purple-box::before{
     content:'';
     display:block;
