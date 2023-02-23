@@ -1,0 +1,55 @@
+
+.background{
+    width:420px;
+    height:699px;
+    margin:0 0 0 0;
+    display:flex;
+    align-items:stretch;
+}
+
+.blue-dark{
+    height:100%;
+    width:35px;
+    background-color: rgb(4, 29, 67);
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:3px;
+}
+
+.blue-light{
+    height:100%;
+    width:35px;
+    background-color: rgb(26, 80, 146);
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:3px;
+}
+
+.red-box{
+    width:32px;
+    height:32px;
+    background-color: red;
+    margin: 0 0 0 2px;
+}
+
+.purple-box{
+    width:32px;
+    height:32px;
+    background-color: purple;
+    margin: 0 2px 0 2px;
+}
+
+.dark-box{
+    width:32px;
+    height:200px;
+    background-color: rgb(4, 29, 67);
+}
+
+.light-box{
+    width:32px;
+    height:165px;
+    background-color: rgb(26, 80, 146);
+
+}
