@@ -91,7 +91,7 @@ body{
 }
 
 /* webpage style for screen less than 500 px */
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     /* one icon per row */
     .icons-parent > div{
         width: 90%;
@@ -119,11 +119,11 @@ body{
 
     #black-icon{
         height:20%;
-        width:90%
+        width:90%;
     }
     .black-icon-position{
         height: 40%;
-        width: 90%;
+        width: 80%;
     }
     
 }
