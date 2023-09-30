@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LurkForWork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+
+    <!-- make bootstrap to work -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- This is an example app structure, you can modify this as much as you choose --> 
+    <header>
+        <div class="alert alert-warning alert-dismissible fade show hide" role="alert" id="popup">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <h1>lurkforwork.com</h1>
+        
+    </header>
+    <main role="main">
+        <div id="loged-out-section" class="beautiful-frame border border-primary-subtle border-3 rounded-4">
+            <div id="login-page" class="px-2 mb-2">
+                <nav>
+                    <li class="nav-item" id="nav-register"> Register an account</li>
+                </nav>
+                Email: <br><input type="text" id="login-email"><br>
+                Password:<br> <input type="password" id="login-password"><br><br>
+                <button id="login-button">Login</button>
+            </div>
+    
+            <div id="register-page" class="hide px-2 mb-2">
+                <nav>
+                    <li class="nav-item" id="nav-login">Login here</li>
+                </nav>
+                Email: <br><input type="text" id="register-email"><br>
+                Name: <br><input type="text" id="register-name"><br>
+                Password: <br><input type="password" id="register-password"><br>
+                Confirm your password:<br> <input type="password" id="register-confirm-password"><br><br>
+                <button id="register-button">Register</button>
+            </div>
+        </div>
+
+        <div id="loged-in-section" class="hide loged-in-color">
+            
+            <!-- show job feeds as cards -->
+            <div class="card card-body card-size">
+                <p class="text-muted fs-6">poster | date2</p>
+                <h4 class="card-title">Job Title</h4>
+                <p class="text-muted fs-6">starting date</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="
+                class="card-img-top" alt="...">
+
+                <div class="text-muted d-flex mb-3">
+                    <div class="hoverBlue me-auto p-2">9 comments </div>
+                    <button type="button" class="btn btn-light">👍  Like me</button>
+                    <div class="hoverBlue p-2"> 8 likes </div>
+                </div>
+
+                <div class="hstack gap-3">
+                    <input class="form-control me-auto" type="text" placeholder="Add your comments here..." >
+                    <button type="button" class="btn btn-secondary">send</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- this modal section is copied from bootstrap to make modal to work -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content" id="modal-content-div">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">People who liked this job</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="show-users-like">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+    <footer>
+        <p>&copy; lurkforwork.com 2022</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+    <!-- make bootstrap to work -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

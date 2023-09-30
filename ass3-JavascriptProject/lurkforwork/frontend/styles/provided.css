@@ -1,0 +1,32 @@
+.loged-in-color{
+    background-color:#f3f2ee;
+}
+
+.beautiful-frame{
+    width:50%;
+
+    margin: 0 auto;
+}
+
+
+.hide{
+    display:none;
+}
+
+
+
+.hoverBlue:hover{
+    color: rgba(0, 85, 255, 0.961);
+    text-decoration: underline;
+}
+
+.container{
+    display:flex
+}
+
+.card-size{
+    width: 70%;
+    margin:0 auto;
+    margin-bottom: 5%;
+}
+
